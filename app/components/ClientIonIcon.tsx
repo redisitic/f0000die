@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
 
-type Props = React.ComponentProps<'ion-icon'> & { name: string };
+type Props = any;
 
 function IonIconImpl(props: Props) {
   // Stencil will upgrade this tag after mount.
